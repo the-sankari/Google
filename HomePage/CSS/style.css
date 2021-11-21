@@ -1,45 +1,103 @@
-body, html{
-    height: 100%;
+body{
     margin: 0;
     padding: 0;
-    min-width: 400px;
-    background-color: blue
-  
-}
-body, input, button{
-    font-size: 14px;
-    font-family: arial, sans-serif;
-    color: #202124;
+    box-sizing: border-box;
+    font-family: arial, sans, sans-serif;
 }
 
-.body{
-    /* display: flex;
-    align-items: center; */
-    padding: 6px;
-    height: 60px;
-    /* align-items: flex-end; */
-    /* display: flex; */
-    position: relative;
-}
-
-.topNavBar{
-position: absolute;
-right: 0;
+.topnav{
+    /* background-color: red; */
+height: 60px;
 display: flex;
-flex-direction: row;
+align-items: center;
+justify-content: flex-end;
 }
-
-.gmail-img-div{
-    display:flex;
-    margin: 20px 50px;
-}
-
-.gmail-img-div1, .apps-login-div{
+.navbar{
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-.gi{
-    margin: 0 12px;
+.gmailImg , .appsSign{
+    display: flex;
+    padding: 10px 08px;
+}
+
+/* .gmail , .img {
+    padding: 0px 10px;
+} */
+
+.kj{
+    padding: 0px 10px;
+}
+
+.kj a{
+    text-decoration: none;
+    color:#111
+}
+.gi:hover{
+    text-decoration: underline;   
+}
+.appsSign{
+    align-items: center;
+}
+
+.apps{
+    width: 25px;
+    height: 30px;
+    margin-right: 14px;
+    margin-left: -18px;
+}
+.apps-logo{
+    width: 27px;
+    opacity: .8;
+    padding: 5px 5px;
+}
+.apps-logo:hover{
+    border-radius: 30px;
+   background-color: #9995;
+}
+
+.signIn{
+    background-color: red;
+    min-width: 80px;
+    height: 35px;
+    text-align: center
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6px;
+    border-radius: 5px;
+    background: #1a73e8;
+}
+.signIn a{
+ color: #fff;
+    
+}
+.signIn:hover{
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+
+}
+
+.google-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150px;
+    max-height: 290px;
+}
+.gi-logo{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+.google-logo{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
 }
