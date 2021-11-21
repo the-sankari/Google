@@ -1,0 +1,43 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+}
+body, input, button{
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+}
+
+.body{
+    /* display: flex;
+    align-items: center; */
+    padding: 6px;
+    height: 60px;
+    /* align-items: flex-end; */
+    /* display: flex; */
+    position: relative;
+}
+
+.topNavBar{
+position: absolute;
+right: 0;
+display: flex;
+flex-direction: row;
+}
+
+.gmail-img-div{
+    display:flex;
+    margin: 20px 50px;
+}
+
+.gmail-img-div1, .apps-login-div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.gi{
+    margin: 0 12px;
+}
