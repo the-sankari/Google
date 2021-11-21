@@ -3,8 +3,8 @@ body, html{
     margin: 0;
     padding: 0;
     min-width: 400px;
-    background-color: rgb(207, 27, 27);
-    background-image: url("../Images/36900018791_80f9654d6a_o-1-1200x800.jpg");
+    background-color: blue
+  
 }
 body, input, button{
     font-size: 14px;
