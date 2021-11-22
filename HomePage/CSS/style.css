@@ -8,7 +8,6 @@ div {
   display: block;
 }
 .topnav {
-  /* background-color: red; */
   height: 60px;
   display: flex;
   align-items: center;
@@ -25,10 +24,6 @@ div {
   display: flex;
   padding: 10px 08px;
 }
-
-/* .gmail , .img {
-    padding: 0px 10px;
-} */
 
 .kj {
   padding: 0px 10px;
@@ -138,7 +133,6 @@ form {
 .userInput {
   flex: 1;
   display: flex;
-  /* border: 1px solid red; */
   padding: 5px 8px 0 14px;
 }
 
@@ -156,7 +150,6 @@ form {
 .seacrhLogo {
   margin-top: 3px;
   color: #9aa0a6;
-  /* opacity: .6; */
   width: 20px;
   height: 20px;
   display: block;
@@ -164,62 +157,62 @@ form {
   width: 100%;
   cursor: pointer;
 }
-.seacrhLogo:not(:root){
-    overflow: hidden;
+.seacrhLogo:not(:root) {
+  overflow: hidden;
 }
-.searchInput{
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
+.searchInput {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
 }
-.userTypeArea{
-    color: transparent;
-    flex: 100%;
-    white-space: pre;
-    height: 34px;
-}
-
-.inputTextArea{
-    background-color: transparent;
-    margin: 0;
-    padding: 0;
-    color: rgba(0, 0, 0, .87);
-    word-wrap: break-word;
-    outline: none;
-    display: flex;
-    flex: 100%;
-    margin-top: -37px;
-    height: 34px;
-    font-size: 16px;
-    width: 100%;
-    border: 1px solid
+.userTypeArea {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  height: 34px;
 }
 
-
-
-.micImage{
-    display: flex;
-    flex: 0 0 auto;
-    margin-top: -5px;
-    align-items: stretch;
-    flex-direction: row;
+.inputTextArea {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -37px;
+  height: 34px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid;
 }
-.micIcon{
-    flex: 1 0 auto;
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    border: 0;
-    background: transparent;
-    outline: none;
-    padding: 0 8px;
-    width: 24px;
-    line-height: 44px;
+#searchBox{
+    border: none;
 }
-.mic{
-    height: 24px;
-    width: 24px;
-    vertical-align: middle;
-    line-height: 44px;
-    cursor: pointer;
+.micImage {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row;
+}
+.micIcon {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}
+.mic {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  line-height: 44px;
+  cursor: pointer;
 }
