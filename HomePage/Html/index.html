@@ -9,28 +9,78 @@
     <!-- my CSS style sheet link  -->
     <link rel="stylesheet" href="../CSS/style.css" />
     <!-- google font link  -->
+    <!-- Google icon cdn  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
-   <div class="topnav">
-     <div class="navbar">
-       <div class="gmailImg">
-         <div class="gmail kj">
-           <a href="mail.google.com" class="mail gi ">Gmail</a>
-         </div>
-         <div class="img kj"><a href="images.google.com" class="images gi ">Images</a></div>
-       </div>
-       <div class="appsSign">
-         <div class="apps kj"><a href="#" class="appsLink"><img src="../Images/dots.png" width="35" alt="Apps" class="apps-logo"></a></div>
-         <div class="signIn kj">
-           <a href="#" class="account">Sign in</a>
-         </div>
-       </div>
-     </div>
-   </div>
-   <div class="google-image">
-     <div class="gi-logo">
-       <img src="../Images/google-logo.png" width="272" height="92" alt="Google" class="google-logo">
-     </div>
-   </div>
+    <div class="topnav">
+      <div class="navbar">
+        <div class="gmailImg">
+          <div class="gmail kj">
+            <a href="mail.google.com" class="mail gi">Gmail</a>
+          </div>
+          <div class="img kj">
+            <a href="images.google.com" class="images gi">Images</a>
+          </div>
+        </div>
+        <div class="appsSign">
+          <div class="apps kj">
+            <a href="#" class="appsLink"
+              ><img
+                src="../Images/dots.png"
+                width="35"
+                alt="Apps"
+                class="apps-logo"
+            /></a>
+          </div>
+          <div class="signIn kj">
+            <a href="#" class="account">Sign in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="google-image">
+      <div class="gi-logo">
+        <img
+          src="../Images/google-logo.png"
+          width="272"
+          height="92"
+          alt="Google"
+          class="google-logo"
+        />
+      </div>
+    </div>
+    <div class="searchArea">
+      <form action="/search" method="get" role="search" class="searchForm">
+        <div class="search">
+          <div class="googleSearch">
+            <div class="inputArea">
+              <div class="userInput">
+                <div class="searchIcon">
+                  <div class="meterialserachIcon">
+                    <span class="material-icons seacrhLogo"> search </span>
+                  </div>
+                </div>
+                <div class="searchInput">
+                  <div class="userTypeArea">
+                    <input 
+                   class="inputTextArea" type="search" name="google" id="searchBox" />
+                  </div>
+                </div>
+                <div class="micImage">
+                  <div class="micIcon">
+                    <img src="../Images/speech-logo.png" class="mic" alt="mic" />
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
