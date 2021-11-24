@@ -1,0 +1,10 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "MonoLisa",
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeLensFontFamily": "MonoLisa"
+}
